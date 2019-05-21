@@ -44,7 +44,7 @@
 - [x] And
 - [x] Or
 - [x] Xor
-- [ ] Mux
+- [x] Mux
 - [ ] DMux
 
 ### 기본 게이트의 멀티비트 버전
