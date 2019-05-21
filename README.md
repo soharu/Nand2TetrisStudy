@@ -9,7 +9,7 @@
 - [Nand2Tetris > Software](https://www.nand2tetris.org/software)에서 __`Download the Nand2tetris Software Suite`__ 를 다운로드한다.
   - `tools`: 시뮬레이터 등등
   - `projects`: 각 장을 실습하는데 필요한 파일들
-  
+
 > __NOTE__ 참고로 이 저장소에서는 `projects` 파일 밑에 있는 파일들만 사용하고 툴은 따로 포함하지 않는다.
 
 ## 1장: 불 논리
@@ -41,7 +41,7 @@
 ### 기본 논리 게이트
 
 - [x] Not
-- [ ] And
+- [x] And
 - [ ] Or
 - [ ] Xor
 - [ ] Mux
