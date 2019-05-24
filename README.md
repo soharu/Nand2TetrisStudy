@@ -56,9 +56,9 @@
 
 ### 기본 게이트의 다입력 버전
 
-- [ ] Or8Way
-- [ ] Mux4Way16
-- [ ] Mux8Way16
+- [x] Or8Way
+- [x] Mux4Way16
+- [x] Mux8Way16
 - [ ] DMux4Way
 - [ ] DMux8Way
 
