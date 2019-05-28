@@ -62,6 +62,14 @@
 - [x] DMux4Way
 - [x] DMux8Way
 
+## 2장 불 연산
+
+- [ ] 반가산기: HalfAdder
+- [ ] 전가산기: FullAdder
+- [ ] 가산기: Add16
+- [ ] 증분기: Inc16
+- [ ] 산술 논리 연산 장치: ALU
+
 ## History
 
 - 2019년 5월 14일: [Nand2TetrisStudy](https://github.com/soharu/Nand2TetrisStudy) 저장소 생성
