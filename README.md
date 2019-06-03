@@ -72,6 +72,8 @@
 
 ## History
 
+- 2019년 6월 3일: 2장 과제 완료
+- 2019년 5월 24일: 1장 과제 완료
 - 2019년 5월 14일: [Nand2TetrisStudy](https://github.com/soharu/Nand2TetrisStudy) 저장소 생성
 - 2019년 5월 7일: [TSG 멤버들](https://www.tuestudy.org/)과 스터디 시작
 - 2019년 4월 14일: [밑바닥부터 만드는 컴퓨팅 시스템][Nand2Tetris_korean_book] 책 구입
