@@ -66,7 +66,7 @@
 
 - [x] 반가산기: HalfAdder
 - [x] 전가산기: FullAdder
-- [ ] 가산기: Add16
+- [x] 가산기: Add16
 - [ ] 증분기: Inc16
 - [ ] 산술 논리 연산 장치: ALU
 
