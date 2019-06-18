@@ -89,7 +89,7 @@ Nand2tetirs Software Suite에 포함된 하드웨어 시뮬레이터로 HDL로 �
 ### 칩 목록
 
 - [x] 1비트 레지스터: Bit
-- [ ] 레지스터: Register
+- [x] 레지스터: Register
 - [ ] 8-레지스터 메모리: RAM8
 - [ ] n-레지스터 메모리: RAM64, RAM512, RAM4K, RAM16K
 - [ ] 계수기: PC
