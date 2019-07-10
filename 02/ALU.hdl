@@ -42,15 +42,11 @@ CHIP ALU {
         ng; // 1 if (out < 0),  0 otherwise
 
     PARTS:
-    Not16(in=x, out=notx);
-    And16(a=x, b=notx, out=zerox);
-    Mux16(a=x, b=zerox, sel=zx, out=x1);
+    Mux16(a=x, b=false, sel=zx, out=x1);
     Not16(in=x1, out=notx1);
     Mux16(a=x1, b=notx1, sel=nx, out=x2);
 
-    Not16(in=y, out=noty);
-    And16(a=y, b=noty, out=zeroy);
-    Mux16(a=y, b=zeroy, sel=zy, out=y1);
+    Mux16(a=y, b=false, sel=zy, out=y1);
     Not16(in=y1, out=noty1);
     Mux16(a=y1, b=noty1, sel=ny, out=y2);
 
@@ -59,18 +55,11 @@ CHIP ALU {
     Mux16(a=andxy, b=sumxy, sel=f, out=fout);
 
     Not16(in=fout, out=nfout);
-    Mux16(a=fout, b=nfout, sel=no, out=tout);
+    Mux16(a=fout, b=nfout, sel=no, out[0..7]=pout1, out[8..15]=pout2, out[15]=ng, out=out);
 
     // zr
-    And16(a=tout, b=tout, out[0..7]=pout1, out[8..15]=pout2);
     Or8Way(in=pout1, out=t1);
     Or8Way(in=pout2, out=t2);
     Or(a=t1, b=t2, out=t3);
     Not(in=t3, out=zr);
-
-    // ng
-    And16(a=tout, b=tout, out[0..14]=ig, out[15]=sign);
-    And(a=sign, b=sign, out=ng);
-
-    And16(a=tout, b=tout, out=out);
 }
