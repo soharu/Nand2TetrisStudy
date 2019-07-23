@@ -94,6 +94,13 @@ Nand2tetirs Software Suite에 포함된 하드웨어 시뮬레이터로 HDL로 �
 - [x] n-레지스터 메모리: RAM64, RAM512, RAM4K, RAM16K
 - [x] 계수기: PC
 
+## 4장 기계어
+
+### 과제
+
+- [ ] 곱셈 프로그램(Mult.asm)
+- [ ] I/O 조작 프로그램(Fill.asm)
+
 ## History
 
 - 2019년 6월 25일: 3장 과제 완료
