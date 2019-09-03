@@ -39,7 +39,7 @@ CHIP CPU {
         pc[15];          // address of next instruction
 
     PARTS:
-    // Decoding instrcution into control bits
+    // Decoding instruction into control bits
     Or16(a=instruction, b=false,
         out[15]=cType,
         out[13..14]=unused,
