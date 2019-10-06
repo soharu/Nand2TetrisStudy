@@ -1,0 +1,3 @@
+[submodule "06/hack_assembler"]
+	path = 06/hack_assembler
+	url = git@github.com:soharu/hack_assembler.git
