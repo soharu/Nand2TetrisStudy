@@ -144,9 +144,13 @@ Nand2tetirs Software Suite에 포함된 하드웨어 시뮬레이터로 HDL로 �
 
 * [Rust 설치](https://www.rust-lang.org/tools/install)
 * Git Submodule 설정
-
+  * 초기 설정
    ```sh
-   > git submodule update --init
+   $ git submodule update --init
+   ```
+  * 업데이트
+   ```sh
+   $ git submodule update --remote
    ```
 
 #### 테스트
